@@ -196,6 +196,7 @@ class BayLoc:
             "end_date": max(inferred_dates),
             "number_of_known_days": len(known_dates),
             "number_of_inferred_days": len(inferred_only_dates),
+            "optimized_lambda": self.best_lambda if self.best_lambda is not None else None
         }
 
         return {
