@@ -9,11 +9,6 @@ A Python package for inferring location timelines and residency history from dai
 * Provide basic timeline statistics.
 * Compute AUROC for binary classification tasks on location data.
 
-## Repository contents
-
-* `/bayloc`: source code.
-* `/paper_data`: dataset of trajectories used in the \[paper]\(link al arxiv).
-
 ## Installation
 
 ```bash
