@@ -111,7 +111,7 @@ If you use this library, please cite it using the following BibTeX:
 }
 ```
 
-If you use the residence history computation feature (`bayloc.get_residence_history`), please cite:
+If you use the residence history computation feature (`bayloc.get_residence_history`), please cite also:
 
 ```bibtex
 @article{Ruths2020,
