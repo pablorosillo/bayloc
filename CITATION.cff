@@ -1,0 +1,28 @@
+cff-version: 1.2.0
+message: "If you use bayloc, please cite the article below."
+title: "bayloc"
+version: 2.0.0
+license: MIT
+authors:
+  - family-names: Rosillo-Rodes
+    given-names: Pablo
+  - family-names: Tugores
+    given-names: Antònia
+  - family-names: Sánchez
+    given-names: David
+  - family-names: Ramasco
+    given-names: José J.
+preferred-citation:
+  type: article
+  title: "Inferring missing locations in human mobility data using memory effects"
+  authors:
+    - family-names: Rosillo-Rodes
+      given-names: Pablo
+    - family-names: Tugores
+      given-names: Antònia
+    - family-names: Sánchez
+      given-names: David
+    - family-names: Ramasco
+      given-names: José J.
+  year: 2025
+  url: "https://arxiv.org/abs/XXXX.XXXXX"

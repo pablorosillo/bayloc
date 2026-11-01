@@ -1,0 +1,28 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "bayloc"
+version = "2.0.0"
+description = "Memory-decay imputation of missing locations in human mobility timelines"
+readme = "README.md"
+license = { text = "MIT" }
+requires-python = ">=3.9"
+authors = [
+  { name = "Pablo Rosillo-Rodes", email = "prosillo@ifisc.uib-csic.es" },
+  { name = "Antònia Tugores" },
+  { name = "David Sánchez" },
+  { name = "José J. Ramasco" },
+]
+dependencies = ["numpy>=1.22", "scipy>=1.8", "scikit-learn>=1.0"]
+
+[project.optional-dependencies]
+analysis = ["pandas>=1.4", "tqdm"]
+test = ["pytest>=7", "pandas>=1.4", "tqdm"]
+
+[tool.setuptools]
+packages = ["bayloc"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
