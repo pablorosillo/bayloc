@@ -2,10 +2,13 @@ name: bayloc-env
 channels:
   - conda-forge
 dependencies:
-  - python=3.10
-  - numpy
-  - scipy
-  - scikit-learn
+  - python>=3.9
+  - numpy>=1.22
+  - scipy>=1.8
+  - scikit-learn>=1.0
+  - pandas>=1.4
   - tqdm
+  - pytest>=7
   - pip
-
+  - pip:
+      - -e .
